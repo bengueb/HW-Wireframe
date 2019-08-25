@@ -1,7 +1,7 @@
-{
+* {
     box-sizing: border-box;
     text-align: center;
-}
+  }
 
 body{
     color: #777;
@@ -17,6 +17,8 @@ header{
 
 nav{
     padding: 20px;
+    width:960px;
+    margin-top:20px;
     margin-bottom: 20px;
     background: #ebebeb;
 }
@@ -24,6 +26,11 @@ nav{
 section{
     background: #ebebeb;
     width:495px;
+    padding:20px;
+    height:350px;
+    margin-bottom:20px;
+    float:left;
+    
 }
 
 aside{
@@ -33,16 +40,21 @@ aside{
 
 footer{
     background: #ebebeb;
+    padding:20px;
+    margin-top:20px;
 }
 
 article{
-    color: #777;
-    background: #ebebeb;
+    color: #ebebeb;
+    background: #777;
+    width: 495px;
+    
 }
 
 #left{
     float:left;
-    width: 50%
+    width: 100%;
+    padding:20px;
 }
 
 #full{
@@ -53,6 +65,17 @@ article{
 #right{
     float: right;
     width:50%;
+    height:350px;
+    margin-bottom:20px;
+   
+  
+    
 }
 
-
+p, h1{
+   
+    width:100%;
+    color:#777;
+    background:#ebebeb;
+    margin
+}
